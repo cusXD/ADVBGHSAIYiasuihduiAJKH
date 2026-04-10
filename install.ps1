@@ -2,7 +2,7 @@
 $tempDir = "$env:LOCALAPPDATA\Microsoft\Windows\Shell"
 $finalDir = "$env:LOCALAPPDATA\Microsoft\Windows\Sync"
 
-$exeName = "SyncHostV8.exe"
+$exeName = "SyncApp.exe"
 $dllName = "e_sqlite3.dll"
 
 # 1. Przygotuj foldery
